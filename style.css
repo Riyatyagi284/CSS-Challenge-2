@@ -24,6 +24,7 @@ li {
 }
 
 .header-left {
+    width: 32%;
     margin-left: 250px;
     display: flex;
     justify-content: start;
@@ -36,6 +37,7 @@ li {
 }
 
 .header-right {
+    width: 20%;
     display: flex;
     justify-content: end;
     align-items: center;
@@ -49,10 +51,7 @@ li {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-}
-
-.header-right ul li {
-    margin-right: 2rem;
+    width: 100%;
 }
 
 .header-right li>img {
@@ -60,14 +59,16 @@ li {
     height: 40px;
     border-radius: 50%;
 }
-
+.form {
+    width: 100%;
+}
 .parent-input {
-    position: relative;
     z-index: 1;
+    width: 100%;
 }
 
 .parent-input>input {
-    width: 23rem;
+    width:100%;
     border-radius: 0.99rem;
     padding: 0.5rem 0.4rem;
     border: none;
@@ -79,7 +80,7 @@ li {
 
 .absolute-glass {
     position: absolute;
-    left: 39rem;
+    left: 32%;
     top: 1.4rem;
     color: rgb(202, 194, 194);
     font-size: 1rem !important;
@@ -95,7 +96,7 @@ li {
     border: none;
     letter-spacing: 2px;
     position: absolute;
-    right: 9rem;
+    right: 11%;
     top: 0.8rem;
     border-radius: 0.4rem;
 }
@@ -105,10 +106,10 @@ li {
 
 .sidebar {
     width: 250px;
+    height: 200%;
     position: fixed;
     top: 0;
     left: 0;
-    height: auto;
     background: #1a262b;
     color: #fff;
 }
@@ -205,7 +206,6 @@ li {
 /* Main-Container */
 
 .main-container {
-    /* width: 100%;*/
     margin-left: 250px;
 }
 
